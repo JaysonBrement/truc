@@ -1,0 +1,356 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    font-family: 'ROBOTO';
+}
+    
+    body{
+        height: 220px;
+        width: 99.8vw;
+        background-color: ;
+        
+    }
+    .supercontainer{
+        display: flex;
+        flex-direction: column;
+        height: 200px;
+        width: 99.8vw;
+    }
+    
+        .container{
+            
+            height: 200vw;
+            width: 99.8vw;
+        }
+            header{
+                
+                width:100vw;
+                height:35vw;
+                width: 99.8vw;
+                background-image: url(/images/header.jpg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                
+            }
+                header .hopusher1{
+                    
+                    height: 10vw;
+                }
+                header .hopusher2{
+                    
+                    height:1vw
+                }
+                header .hopusher3{
+                    
+                    height:3vw
+                }
+                header .hopusher4{
+                    
+                    height: 3vw;
+                    
+                }
+                header .homenu{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                }
+                    header .homenu .menupt1{
+                        
+                    }
+                    header .homenu .menupt2{
+                        margin-left: 18vw;
+                        color:white
+                    }
+                        header .homenu .menupt2 ul li{
+                            display: inline;
+                            padding-left:2vw ;
+                            font-size: 1.2vw;
+
+                        }
+                header .hoh1{
+                    font-size: 2.8vw;
+                    color: white;
+                    font-weight: 100;
+                }
+                header img{
+                    height: 3vw;
+                    margin-top: 1vw;
+                }
+                header p{
+                    width:25vw;
+                    color: white;
+                    text-align: center;
+                    font-size: 1vw;
+                }
+
+            main{
+                
+                width: 99.8vw;
+                height: 130vw;
+                display: flex;
+                flex-direction: column;
+            }
+                .bienvenue{
+                    width: 99.8vw;
+                    height: 35vw;
+                    background-color: white;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: center;
+                }
+                    .vtimg{
+                        width: 30vw;
+                        display: flex;
+                        justify-content: center;
+                    }
+                        .vtimg img{
+                            height:25vw;
+                        }
+                    .vtcontenu{
+                        width: 30vw;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: ;
+                    }
+                    .vtcontenu h3{
+                        font-size: 3vw;
+                    }
+                    .vtcontenu p{
+                        font-size: 1vw;
+                        margin-top: 2vw;
+                    }
+                    .vtcontenu .bouton{
+                        background-color: lightgreen;
+                        height: 5vw;
+                        width: 15vw;
+                        margin-top: 5vw;
+                        outline:solid 0.01vw black;
+                        display: flex;
+                        flex-direction: row;
+                        font-size: 2vw;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                    .bouton img{
+                        height: 3vw;
+                    }
+                .chambre{
+                    width: 99.8vw;
+                    height: 40vw;
+                    
+                    
+                }
+                    .desc{
+
+                        display: flex;
+                        justify-content: center;
+                        flex-direction: column;
+                        align-items: center;
+                        margin-top: 1vw;
+                    }
+                        .desc h2{
+                            text-align: center;
+                            font-size: 3vw;
+                        }
+                        .desc p{
+                            text-align: center;
+                            font-size: 1.3vw;
+                            width: 50vw;
+                            margin-top: 1vw;
+                        }
+                    .ctnimg{
+                        
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        flex-direction: row;
+                        margin-top: 3vw;
+                        
+                    }
+                        .ctnimg .pusher1{
+                            width: 24vw;
+                        }
+                        .ctnimg .pusher2{
+                            width:15vw
+                        }
+                        .ctnimg .img1{
+                            height: 20vw;
+                        }
+                        .ctnimg .img2{
+                            height: 20vw;
+                        }
+                        .ctnimg .img3{
+                            height: 20vw;
+                        }
+                    .ctntitle{
+                        
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-around;
+                        text-align: center;
+                    }
+                        .ctntitle h3{
+                            font-size: 2vw;
+                        }
+                        .ctntitle h5{
+                            text-align: center;
+                            font-size: 1.2vw;
+                        }
+                        .cntitle .title2{
+                            
+                        }
+                .noservices{
+                    width: 99.8vw;
+                    height: 35vw;
+                    background-color: white;
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column;
+                    align-items: center;
+                }
+                    .noservices .hoh2{
+                        font-size: 2.5vw;
+                    }
+                    .noservices .tile{
+                        display: flex;
+                        justify-content: center;
+                        flex-direction: row;
+                        margin-top: 5vw;
+                    }
+                        .tile img{
+                            height:2vw;
+                            margin: 1vw;
+                            
+                        }
+                        .tile h3{
+                            font-weight: 900;
+                            font-size: 1.5vw;
+                        }
+                        .tile p{
+                            margin-top: 1vw;
+                            font-size: 1vw;
+                        }
+                    
+                        .tile .pusher1{
+                            width: 7vw;
+                        }
+                        .tile .tile1{
+                            background-color: white;
+                            height: 20vw;
+                            width: 20vw;
+                            padding :1vw;
+                            outline: solid lightblue 0.1vw;
+                        }
+                        .tile .tile2{
+                            background-color: white;
+                            height: 20vw;
+                            width: 20vw;
+                            padding :1vw;
+                            outline: solid lightblue 0.1vw;
+                        }   
+                        .tile .tile3{
+                            background-color: white;
+                            height: 20vw;
+                            width: 20vw;
+                            padding :1vw;
+                            outline: solid lightblue 0.1vw;
+                        }
+                .hebergement{
+                    width: 99.8vw;
+                    height: 25vw;
+                    background-image: url(/images/hebergement.jpg);
+                    background-size: contain;
+                    
+                }
+                    .hebergement h3{
+                        font-size: 2vw;
+                        color: white;
+                        margin-top: 5vw;
+                        text-align: center;
+                    }
+
+                    .hebergement h4{
+                        color: white;
+                        font-weight: bolder;
+                        margin-top: 2vw;
+                        text-align: center;
+                        font-size: 3vw;
+                    }
+                    footer{
+                        background-color: white;
+                        height: 35vw;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                    }
+                        footer .desc{
+                            
+                        }
+                            footer .desc h3{
+                                text-align: center;
+                                font-size: 1.3vw;
+                                font-weight: bolder;
+                            }
+                            footer .desc p{
+                                color: rgb(53, 150, 182);
+                                font-size: 1vw;
+                            }
+                        footer .tile{
+                            display: flex;
+                            justify-content: center;
+                            margin-top: 5vw;
+                            
+                        }
+                            footer .tile .pusher1{
+
+                            }
+                        footer .tile .tile1{
+                            display: flex;
+                            flex-direction: column;
+                            
+                        }
+                        footer .tile .tile1{
+                        background-color: lightgreen;
+                            
+                        }
+                        footer .tile .tile1 .edward{
+                            width:5vw;
+                            height:5vw;
+                            margin-top: -3vw;
+                            z-index: 5;
+                            
+                        }
+                        footer .tile .tile1 .gh{
+                            width:1vw;
+                            height:1vw;
+                            margin-top:0vw
+                            
+                            
+                        }
+                        footer .tile .tile1 .gb{
+                            width:1vw;
+                            height:1vw;
+                            margin-left:15vw;
+                            margin-top:0.5vw
+                            
+
+                            
+                            
+                        }
+                        
+                        footer .tile .tile1 p{
+                            margin-top: -1vw;
+                            font-size: 1vw;
+                        }
+                        footer .tile .tile1 h6{
+                            font-size: .8vw;
+                        }
+.
+
+            
